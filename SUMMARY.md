@@ -10,5 +10,5 @@
     * [man入门教程](chapter02/Man_tutorial.md)
     * [Linux入门教程](chapter02/Linux_tutorial.md)
     * [git入门教程](chapter02/Git_tutorial.md)
-    * [探索更多内容](chapter01/Explore_more.md)
+    * [探索更多内容](chapter02/Explore_more.md)
 
