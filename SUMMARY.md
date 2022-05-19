@@ -13,6 +13,5 @@
     * [Go入门教程](chapter02/Go_tutotial.md)
     * [探索更多内容](chapter02/Explore_more.md)
 * [云计算](chapter03/README.md)
-    * [什么是云计算](chapter03/Cloud_computing.md)
     * [Docker](chapter03/Docker.md)
     * [Kubernetes](chapter03/Kubernetes.md)
