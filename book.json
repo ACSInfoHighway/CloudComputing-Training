@@ -1,5 +1,7 @@
 {
-    "structure" : {
-        "readme" : "INTRODUCTION.md"
-    }
+    "author": "Chang Zihao, Du Hanlin, Gao Sion, et al. @ICT-ACS-InfoSuperbann",
+    "description": "A document library of MicroService and Serverless",
+    "language": "zh-hans",
+    "generator": "site",
+    "title": "ICT ACS InfoSuperbann Tiny Program for Newers"
 }

@@ -21,3 +21,5 @@
     RPC(Remote Procedure Call, 远程过程调用)请求基于Request-Respond模型。Request指令在指定的Subject上发送消息并等待回复，Respond方法在收到消息后向发送者发送回复信息。
     
     RPC发送者通过包装后的Request请求向工作单元注册一个远程方法，并向其传递参数。工作单元收到RPC注册请求后，启动对应的方法，并在执行结束后获取返回值，用Responde将其回复给发送者。发送者接收回复值。
+
+接下来请阅读[NATS](chapter04/E1_nats_reading.md)
