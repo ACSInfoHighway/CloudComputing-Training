@@ -106,7 +106,9 @@ Hello, World!
 
 [Go Proverb](https://go-proverbs.github.io)
 
-如果你对其他编程语言有一定的了解，可以参阅Gao Sion对Go语言较细节的学习[GoDetail](Go_details.md)。
+如果你对其他编程语言有一定的了解，可以参阅Gao Sion对Go语言较细节的学习[GoDetail](sec05_Go_details.md)。
+
+否则可以直接看[下面的部分](sec06_Explore_more.md)
 
 学习一门编程语言通常步骤如下：
 
