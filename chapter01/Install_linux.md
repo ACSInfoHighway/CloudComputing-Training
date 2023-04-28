@@ -3,15 +3,11 @@
 本节是一个Linux基础开发环境的安装教程。完成本节你将得到一个Linux虚拟机，继续后续章节的试验全部基于这个虚拟机环境完成。如果你刚接触Linux，在配置过程中可能会遇到一些本教程中没有提到的问题，但这些问题通常比较容易解决，找网上也可以找到很多解决方案。需要提示的是，请仔细阅读linux返回给你的错误，对理解和解决问题有很大的帮助。
 
 ## 准备镜像
-
 现在，我开始安装一台 [Ubuntu Server 20.04.3 LTS](https://ubuntu.com/download/server)发型版虚拟机。
-
 > 如果你已经拥有一个Linux开发环境，你可以使用它作为本实验的开发环境，但后续需要自行解决由于平台、发行版、软件包等差异导致的问题。
-
-首先，需要获取对应的镜像，可以通过Ubuntu官网获取对应ISO镜像，如果下载速度不理想，可以通过[USTC Mirror](https://mirrors.ustc.edu.cn/)、[TUNA Mirror](https://mirrors.tuna.tsinghua.edu.cn/)、[163 Mirror](https://mirrors.163.com/) 获取。
+首选，需要获取对应的镜像，可以通过Ubuntu官网获取对应ISO镜像，如果下载速度不理想，可以通过[USTC Mirror](https://mirrors.ustc.edu.cn/)、[TUNA Mirror](https://mirrors.tuna.tsinghua.edu.cn/)、[163 Mirror](https://mirrors.163.com/) 获取。
 
 ## 安装Ubuntu
-
 在主机上安装虚拟机，需要提前安装虚拟机管理软件（VMware、VirtualBox、QEMU等），通过他们可以帮助你快速安装一台虚拟机。对于如何安装虚拟机，互联网上已经有非常多的教程，这里不再赘述。但有几点需要提醒：
 
 1. 保证你的主机上最少有`20~50G`的空余存储空间用于创建虚拟机的磁盘。
