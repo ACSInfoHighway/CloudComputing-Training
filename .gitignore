@@ -6,12 +6,18 @@
 ## Commenting this out is preferred by some people, see
 ## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
 node_modules
+.idea
 
 # Book build output
 _book
+.obsidian
+*.json
+!book.json
 
 # eBook build output
 *.epub
 *.mobi
 *.pdf
+
+# MacOS
 .DS_Store
