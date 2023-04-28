@@ -2,7 +2,7 @@
 
 This is a tiny program for acs system software group.
 
-Let's start from [chapter01](chapter01/README.md)
+Let's start from [chapter01](./chapter01/README.md)
 
 After your study, you should prepare a report to introduce your insights.
 

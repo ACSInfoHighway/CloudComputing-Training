@@ -728,7 +728,7 @@ func main() {
 
 Snowflake算法
 
-![snowflake](photos/ch6-snowflake.png)
+![snowflake](../pic/02/ch6-snowflake.png)
 
 sequence_id循环自增
 
