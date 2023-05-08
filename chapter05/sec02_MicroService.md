@@ -8,7 +8,7 @@
 
 ![MicroService Framework Capability](../pic/05/microservice_capability.png)
 
-现有的绝大多数框架都支持以上很多能力，Spring Boot与Apache Dubbo为使用最为广泛的微服务治理开源框架，支撑了很大一部分应用从单体应用上云的转变。近年来，云原生的开源社区不断壮大，针对不同的微服务能力，有众多的开源工具提供支持，能够根据需要以及工具特性进行组合: 
+现有的绝大多数框架都支持以上很多能力，Spring Cloud与Apache Dubbo为使用最为广泛的微服务治理开源框架，支撑了很大一部分应用从单体应用上云的转变。近年来，云原生的开源社区不断壮大，针对不同的微服务能力，有众多的开源工具提供支持，能够根据需要以及工具特性进行组合: 
 
 - 服务注册发现: ZooKeeper, Eureka, Consul, Nacos 
 - 服务配置: Spring Cloud Config, Archaius  
@@ -19,7 +19,7 @@
 - 日志采集: ElasticSearch, Logback  
 - 监控平台: Prometheus, Grafana, Spring boot admin
 
-以 Spring Boot 框架为例，可以以官方框架为基础，融合不同微服务支撑技 术后形成了一系列对生产实践支持更全面的框架，其中以 Alibaba 中间件团队开发的的开源框架 Spring Boot Alibaba 支持最为全面：
+以Spring Cloud框架为例，可以以官方框架为基础，融合不同微服务支撑技术后形成了一系列对生产实践支持更全面的框架，其中以Alibaba中间件团队开发的的开源框架Spring Boot Alibaba支持最为全面：
 
 ![SpringCloudAlibaba](../pic/05/SpringCloudAlibaba.png)
 
@@ -31,5 +31,9 @@
 
 以下两个任务可以从中选择一个来做：
 
-1. 根据[SpringBoot示例应用](https://spring.io/guides/gs/spring-boot/)的指导构建和运行一个分布式应用
-2. 
+1. 阅读并实践[Spring Cloud构建微服务架构Dalston版](https://blog.didispace.com/spring-cloud-learning/)
+2. [跟随实例任务学习Apache Dubbo](https://cn.dubbo.apache.org/zh-cn/overview/tasks/)
+
+注意在实践过程中要尝试去理解相关组件的设计用途。
+
+如果你想进一步探索，可以尝试用上面介绍的各个功能组件替换掉Spring Cloud相关组件，并且进行比较。

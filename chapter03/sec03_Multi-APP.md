@@ -344,7 +344,7 @@ Listening on port 3000
 * kubectl exec，进行pod内部访问对应的应用
 
 > 提示：
-> 1. 本章节涉及很多Docker和Kubernetes新内容，请读者执行学习了解。
+> 1. 本章节涉及很多Docker和Kubernetes新内容，请读者自行学习了解。
 
 *思考：*
 1. *以上两种模式中，网络是如何管理？ 不同应用间是如何通信的？*
