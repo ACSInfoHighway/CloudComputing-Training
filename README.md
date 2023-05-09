@@ -1,6 +1,6 @@
 # Tiny program
 
-This is a tiny program for acs system software group.
+This is a tiny program for acs system software group. View [Gitbook](https://bluespace.gitbook.io/tiny_program/) to read it easily.
 
 Let's start from [chapter01](./chapter01/README.md)
 
