@@ -14,32 +14,36 @@
 
 ## Docker部署Todo-App
 
+> 注：本节内容的Dockerfile可能会出现过时的情况，如果发现执行错误请参考[docker官网的实战教程](https://github.com/docker/getting-started)修改Dockerfile
+
 ### 构建Todo-App
 
 1. 获取前端源码
 
 ```sh
-git clone https://github.com/docker/getting-started.git
+git clone https://github.com/docker/getting-started.git && export GETTING_STARTED_DIR=./getting-started
 ```
 
 2. 构建应用镜像
 
 ```sh
 cd $GETTING_STARTED_DIR/app
+# 创建一个Dockerfile，内容如下
+touch Dockerfile
 docker build -t [ID]/todo-app:v1 .
 ```
 
-Dockerfile:
+Dockerfile内容:
 
 ```Dockerfile
 # syntax=docker/dockerfile:1
-FROM node:12-alpine
-RUN apk add --no-cache python2 g++ make
+FROM node:18-alpine
+# RUN apk add --no-cache python2 g++ make
 WORKDIR /app
 COPY . .
 RUN yarn install --production
 CMD ["node", "src/index.js"]
-EXPOSE 3000
+# EXPOSE 3000
 ```
 
 > 注意：请自行上传容器
