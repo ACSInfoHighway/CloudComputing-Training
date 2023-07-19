@@ -49,6 +49,11 @@ CMD ["node", "src/index.js"]
 ```
 
 > 注意：请自行上传容器
+> 提示：
+> ```sh
+> # 先在dockerhub创建一个同名仓库，然后再执行这条命令
+> docker push [ID]/todo-app:v1
+> ```
 
 3. 验证应用容器
 
