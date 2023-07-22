@@ -14,35 +14,46 @@
 
 ## Docker部署Todo-App
 
+> 注：本节内容的Dockerfile可能会出现过时的情况，如果发现执行错误请参考[docker官网的实战教程](https://github.com/docker/getting-started)修改Dockerfile
+> 此外，本节的容器在安装时可能存在需要代理的情况，如果发现yarn命令出错则可以[根据本机的代理端口设置容器内的代理](https://cloud.tencent.com/developer/article/1806455)
+
 ### 构建Todo-App
 
 1. 获取前端源码
 
 ```sh
-git clone https://github.com/docker/getting-started.git
+git clone https://github.com/docker/getting-started.git && export GETTING_STARTED_DIR=./getting-started
 ```
 
 2. 构建应用镜像
 
 ```sh
 cd $GETTING_STARTED_DIR/app
+# 创建一个Dockerfile，内容如下
+touch Dockerfile
 docker build -t [ID]/todo-app:v1 .
 ```
 
-Dockerfile:
+Dockerfile内容:
 
 ```Dockerfile
 # syntax=docker/dockerfile:1
-FROM node:12-alpine
-RUN apk add --no-cache python2 g++ make
+FROM node:18-alpine
+# RUN apk add --no-cache python2 g++ make
+RUN apk add --no-cache python3
 WORKDIR /app
 COPY . .
 RUN yarn install --production
 CMD ["node", "src/index.js"]
-EXPOSE 3000
+# EXPOSE 3000
 ```
 
 > 注意：请自行上传容器
+> 提示：
+> ```sh
+> # 先在dockerhub创建一个同名仓库，然后再执行这条命令
+> docker push [ID]/todo-app:v1
+> ```
 
 3. 验证应用容器
 
